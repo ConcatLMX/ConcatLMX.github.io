@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一些话</title>
+    <title>Welcome</title>
     <url>/2023/01/24/Hi-0/</url>
-    <content><![CDATA[<h2 id="这里记录着某个陌生人茶余饭后的一些想法，随意看看吧"><a href="#这里记录着某个陌生人茶余饭后的一些想法，随意看看吧" class="headerlink" title="这里记录着某个陌生人茶余饭后的一些想法，随意看看吧"></a>这里记录着某个陌生人茶余饭后的一些想法，随意看看吧</h2>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="uwuyou-found-me"><em>UwU,you found me!</em></h1>
+]]></content>
+  </entry>
+  <entry>
+    <title>Magpie</title>
+    <url>/2023/01/25/%E5%A5%BD%E4%B8%9C%E8%A5%BFmagpie/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一款缩放软件<span id="more"></span>
+Magpie支持FSR、Anime4k等多种算法，可以将任意窗口缩放至全屏。</p>
+<p>适用于不支持全屏模式，或者内置的全屏模式会使画面模糊的情况。</p>
+<p>GitHub项目地址：<a
+href="https://github.com/Blinue/Magpie">https://github.com/Blinue/Magpie</a></p>
+]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不等式在等式约束下的新方法</title>
+    <url>/2023/01/25/%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A71/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试中遇到不等式不会怎么办？用换元也算不出来怎么办？<span id="more"></span></p>
+<p>介绍两个方法</p>
+<h2 id="拉格朗日乘子法">1.拉格朗日乘子法</h2>
+<p>给出问题：求$ f(x_1,x_2,...x_n)在 g(x_1,x_2,...x_n)$下的最值。</p>
+<p><em>Step1:</em> 引入修正函数$
+F(x_1,x_2,...x_n,)=f(x_1,x_2,...x_n)+g(x_1,x_2,...x_n)$</p>
+<p><em>Step2:</em> 则满足<span class="math inline">\(\frac{\partial
+F}{\partial x_i}=0 (i=1,2,...n)\)</span> 和$g=0即
+$的解为可能的稳定点，也就是我们不等式的极值点</p>
+<p>这个方法比较好理解。证明比较复杂，有时间再补。</p>
+<h2 id="惩罚函数法">2.惩罚函数法</h2>
+<p>还是上面那个问题</p>
+<p><em>Step1:</em> 引入惩罚函数<span
+class="math inline">\(F=f+Pg^2或者F=f+g^{2p}\)</span>引入P使<span
+class="math inline">\(F\)</span>转为无约束函数</p>
+<p><em>Step2:</em> 直接$=0(i=1,2,...n) $ 解出每个<span
+class="math inline">\(x_i\)</span>关于<span
+class="math inline">\(P\)</span>的代数式<span
+class="math inline">\(h(x_i)\)</span></p>
+<p><em>Step3:</em> 则极值点应为$x_i=_{P }h(x_i) $</p>
+<p>这个方法理解起来就比较困难了，证明同样之后再补。</p>
+<p>虽然这两个方法看起来很万能，但实际上不是。因为很有可能解不出来。<del>大力出奇迹</del></p>
+<p>这两种方法同样可以用在不等式约束上，只需要松弛原函数变量即可。</p>
+]]></content>
+      <categories>
+        <category>高中数学</category>
+      </categories>
+      <tags>
+        <tag>高中数学</tag>
+      </tags>
   </entry>
 </search>
