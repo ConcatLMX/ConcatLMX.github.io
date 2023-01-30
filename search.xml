@@ -7,6 +7,48 @@
 ]]></content>
   </entry>
   <entry>
+    <title>约束条件为不等式的条件极值问题</title>
+    <url>/2023/01/30/%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E4%B8%BA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>在前面说过可以用某些方法将这个问题转化为等式约束，再用惩罚函数或者拉格朗日乘数解决。<span id="more"></span><br />
+求函数<span class="math inline">\(f(x_1,x_2,...,x_n)\)</span>在<span
+class="math inline">\(g(x_1,x_2,...,x_n)\leq0\)</span>下的极值</p>
+<h2 id="松弛变量法">松弛变量法</h2>
+<p>对约束不等式引进一非负的松弛函数S，约束式变为等式<span
+class="math inline">\(φ=g+S=0\)</span>
+松弛函数的选择仅依赖一个松弛变量x_{n+1}，一般取<br />
+<span class="math inline">\(S=x_{n+1}^2\)</span>
+引入完成后，问题就化为了等式约束条件下的极值问题</p>
+<h2 id="应用拉格朗日乘数法">应用拉格朗日乘数法</h2>
+<p>引入新的修正函数<br />
+<span class="math inline">\(F=f+\lambdaφ\)</span> <span
+class="math inline">\(\frac{\partial F}{\partial x_i}=0\quad and\quad φ=0\)</span>
+得到答案</p>
+]]></content>
+      <categories>
+        <category>数学</category>
+      </categories>
+      <tags>
+        <tag>高中数学</tag>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Magpie</title>
+    <url>/2023/01/25/%E5%A5%BD%E4%B8%9C%E8%A5%BFmagpie/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一款缩放软件<span id="more"></span>
+Magpie支持FSR、Anime4k等多种算法，可以将任意窗口缩放至全屏。</p>
+<p>适用于不支持全屏模式，或者内置的全屏模式会使画面模糊的情况。</p>
+<p>GitHub项目地址：<a
+href="https://github.com/Blinue/Magpie">https://github.com/Blinue/Magpie</a></p>
+]]></content>
+      <categories>
+        <category>tool</category>
+      </categories>
+      <tags>
+        <tag>tool</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不等式在等式约束下的新方法</title>
     <url>/2023/01/25/%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A71/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>考试中遇到不等式不会怎么办？用换元也算不出来怎么办？<span id="more"></span></p>
@@ -27,26 +69,11 @@
 <p>说实话，在hexo中用markdown写数学公式，恶心吐了。</p>
 ]]></content>
       <categories>
-        <category>高中数学</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>高中数学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Magpie</title>
-    <url>/2023/01/25/%E5%A5%BD%E4%B8%9C%E8%A5%BFmagpie/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一款缩放软件<span id="more"></span>
-Magpie支持FSR、Anime4k等多种算法，可以将任意窗口缩放至全屏。</p>
-<p>适用于不支持全屏模式，或者内置的全屏模式会使画面模糊的情况。</p>
-<p>GitHub项目地址：<a
-href="https://github.com/Blinue/Magpie">https://github.com/Blinue/Magpie</a></p>
-]]></content>
-      <categories>
-        <category>tool</category>
-      </categories>
-      <tags>
-        <tag>tool</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
 </search>

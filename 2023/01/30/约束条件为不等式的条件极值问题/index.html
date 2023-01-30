@@ -22,17 +22,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="愿你的身边永远有幸福的魔法相伴">
-<meta property="og:type" content="website">
-<meta property="og:title" content="喵坞">
-<meta property="og:url" content="http://example.com/archives/2023/index.html">
+  <meta name="description" content="在前面说过可以用某些方法将这个问题转化为等式约束，再用惩罚函数或者拉格朗日乘数解决。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="约束条件为不等式的条件极值问题">
+<meta property="og:url" content="http://example.com/2023/01/30/%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E4%B8%BA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="喵坞">
-<meta property="og:description" content="愿你的身边永远有幸福的魔法相伴">
+<meta property="og:description" content="在前面说过可以用某些方法将这个问题转化为等式约束，再用惩罚函数或者拉格朗日乘数解决。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-30T13:37:00.000Z">
+<meta property="article:modified_time" content="2023-01-30T13:59:56.153Z">
 <meta property="article:author" content="Concat">
+<meta property="article:tag" content="高中数学">
+<meta property="article:tag" content="数学">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/2023/">
+<link rel="canonical" href="http://example.com/2023/01/30/%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E4%B8%BA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/">
 
 
 <script id="page-configurations">
@@ -40,12 +44,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 喵坞</title>
+  <title>约束条件为不等式的条件极值问题 | 喵坞</title>
   
 
 
@@ -182,110 +186,111 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 4 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/30/%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E4%B8%BA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Concat">
+      <meta itemprop="description" content="愿你的身边永远有幸福的魔法相伴">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="喵坞">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          约束条件为不等式的条件极值问题
+        </h1>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-01-30 21:37:00 / 修改时间：21:59:56" itemprop="dateCreated datePublished" datetime="2023-01-30T21:37:00+08:00">2023-01-30</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B0%E5%AD%A6/" itemprop="url" rel="index"><span itemprop="name">数学</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-01-30T21:37:00+08:00"
-              content="2023-01-30">
-          01-30
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/01/30/%E7%BA%A6%E6%9D%9F%E6%9D%A1%E4%BB%B6%E4%B8%BA%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%9E%81%E5%80%BC%E9%97%AE%E9%A2%98/" itemprop="url">
-            <span itemprop="name">约束条件为不等式的条件极值问题</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-01-25T01:27:34+08:00"
-              content="2023-01-25">
-          01-25
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/01/25/%E5%A5%BD%E4%B8%9C%E8%A5%BFmagpie/" itemprop="url">
-            <span itemprop="name">Magpie</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-01-25T00:00:00+08:00"
-              content="2023-01-25">
-          01-25
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/01/25/%E4%B8%8D%E7%AD%89%E5%BC%8F%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A71/" itemprop="url">
-            <span itemprop="name">不等式在等式约束下的新方法</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-01-24T00:00:00+08:00"
-              content="2023-01-24">
-          01-24
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/01/24/Hi-0/" itemprop="url">
-            <span itemprop="name">Welcome</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        <p>在前面说过可以用某些方法将这个问题转化为等式约束，再用惩罚函数或者拉格朗日乘数解决。<span id="more"></span><br />
+求函数<span class="math inline">\(f(x_1,x_2,...,x_n)\)</span>在<span
+class="math inline">\(g(x_1,x_2,...,x_n)\leq0\)</span>下的极值</p>
+<h2 id="松弛变量法">松弛变量法</h2>
+<p>对约束不等式引进一非负的松弛函数S，约束式变为等式<span
+class="math inline">\(φ=g+S=0\)</span>
+松弛函数的选择仅依赖一个松弛变量x_{n+1}，一般取<br />
+<span class="math inline">\(S=x_{n+1}^2\)</span>
+引入完成后，问题就化为了等式约束条件下的极值问题</p>
+<h2 id="应用拉格朗日乘数法">应用拉格朗日乘数法</h2>
+<p>引入新的修正函数<br />
+<span class="math inline">\(F=f+\lambdaφ\)</span> <span
+class="math inline">\(\frac{\partial F}{\partial x_i}=0\quad and\quad φ=0\)</span>
+得到答案</p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6/" rel="tag"># 高中数学</a>
+              <a href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag"># 数学</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/01/25/%E5%A5%BD%E4%B8%9C%E8%A5%BFmagpie/" rel="prev" title="Magpie">
+      <i class="fa fa-chevron-left"></i> Magpie
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -338,6 +343,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9D%BE%E5%BC%9B%E5%8F%98%E9%87%8F%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">松弛变量法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%94%E7%94%A8%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B9%98%E6%95%B0%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">应用拉格朗日乘数法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
